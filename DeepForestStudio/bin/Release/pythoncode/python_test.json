@@ -1,0 +1,26 @@
+{
+  "ClassesCount": 23,
+  "ZeroBasedClasses": false,
+  "Data": {
+    "TrainDataPath": "E:\\Source\\DeepForestStudio\\DeepForestStudio\\DeepForestStudio\\bin\\Release\\data\\train\\focus__NOUN__50268.txt",
+    "TestDataPath": "E:\\Source\\DeepForestStudio\\DeepForestStudio\\DeepForestStudio\\bin\\Release\\data\\test\\focus__NOUN__50268.txt"
+  },
+  "Cascade": {
+    "Name": "cascade_test",
+    "MaxLevelCount": 5,
+    "KeepModelInMemory": false,
+    "TempDirectory": "E:\\Source\\DeepForestStudio\\data\\temp\\",
+    "Classifiers": [
+      {
+        "ClassifierType": "RandomForest",
+        "KFolds": 3,
+        "EstimatorsCount": 10
+      },
+      {
+        "ClassifierType": "ExtraTrees",
+        "KFolds": 3,
+        "EstimatorsCount": 10
+      }
+    ]
+  }
+}
